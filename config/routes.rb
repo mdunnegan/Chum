@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root to: "static_pages#index" # This means we'll be using the "home controller's" method "index" to render the home page
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

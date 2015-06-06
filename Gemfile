@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# MD~ Devise is a user authentication system
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
